@@ -27,7 +27,7 @@ The Citizen Complaint Portal is a web application designed to empower citizens b
 ### Backend Setup
 ```bash
 # Clone the repository
-git clone https://github.com/yourusername/citizen-complaint-portal.git
+git clone https://github.com/Harrie07/Citizen_Complaint_Portal.git
 
 # Navigate to backend directory
 cd citizen-complaint-portal/backend
@@ -109,4 +109,4 @@ Distributed under the MIT License. See `LICENSE` for more information.
 ## 📞 Contact
 Harshal Sakpal - [harshalsakpal21@gmail.com](mailto:harshalsakpal21@gmail.com)
 
-Project Link: [https://github.com/yourusername/citizen-complaint-portal](https://github.com/yourusername/citizen-complaint-portal)
+Project Link: [https://github.com/Harrie07/Citizen_Complaint_Portal](https://github.com/Harrie07/Citizen_Complaint_Portal)
