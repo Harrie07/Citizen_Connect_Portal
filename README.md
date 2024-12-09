@@ -56,19 +56,42 @@ npm start
 ```
 citizen-complaint-portal/
 │
-├── backend/
-│   ├── controllers/        # Request handling logic
-│   ├── models/             # MongoDB schemas
-│   ├── routes/             # API endpoint definitions
-│   └── middleware/         # Authentication and validation
-│
 ├── frontend/
 │   ├── src/
-│   │   ├── components/     # React UI components
-│   │   ├── pages/          # Individual page components
-│   │   └── services/       # API interaction logic
+│   │   ├── components/
+│   │   │   ├── Admin/
+│   │   │   │   ├── AdminDashboard.js
+│   │   │   │   └── AdminLogin.js
+│   │   │   ├── Authentication/
+│   │   │   │   ├── Login.js
+│   │   │   │   └── SignUp.js
+│   │   │   ├── Grievance/
+│   │   │   │   ├── LodgeGrievance.js
+│   │   │   │   └── ViewGrievanceStatus.js
+│   │   │   ├── Navigation/
+│   │   │   │   └── HomePage.js
+│   │   │   ├── Offices/
+│   │   │   │   └── NearbyGovernmentOffices.js
+│   │   │   └── Schemes/
+│   │   │       └── Scheme.js
+│   │   │
+│   │   ├── styles/
+│   │   │   ├── HomePage.css
+│   │   │   ├── LodgeGrievance.css
+│   │   │   ├── NearbyGovernmentOffices.css
+│   │   │   └── Scheme.css
+│   │   │
+│   │   ├── App.js
+│   │   └── index.js
 │
-└── docs/                   # Project documentation
+├── backend/
+│   ├── controllers/
+│   ├── models/
+│   ├── routes/
+│   └── server.js
+│
+├── README.md
+└── package.json
 ```
 
 ## 🗺️ Google Maps Integration
