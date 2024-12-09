@@ -1,0 +1,68 @@
+/* Inherit styles from HomePage.css for consistency */
+.nearby-offices-page {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+  }
+  
+  .nearby-offices-container {
+    width: 80%;
+    margin: 30px auto;
+    padding: 40px;
+    border: 1px solid #e0e0e0;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .page-heading {
+    font-size: 1.8em;
+    margin-bottom: 30px;
+    color: #343a40; 
+    border-bottom: 2px solid #007bff;
+    padding-bottom: 10px;
+  }
+  
+  .location-filters {
+    display: flex;
+    justify-content: space-around; /* Or space-between, depending on your preference */
+    margin-bottom: 20px;
+  }
+  
+  .form-group {
+  margin-bottom: 20px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  background-color: #f9f9f9;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+  
+  select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ced4da;
+    border-radius: 4px;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+  
+  th, td {
+    padding: 12px 15px;
+    border: 1px solid #ddd;
+    text-align: left;
+  }
+  
+  th {
+    background-color: #f0f8ff;
+    font-weight: bold;
+  }
