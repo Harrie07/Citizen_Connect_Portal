@@ -27,7 +27,7 @@ The Citizen Complaint Portal is a web application designed to empower citizens b
 ### Backend Setup
 ```bash
 # Clone the repository
-git clone https://github.com/Harrie07/Citizen_Complaint_Portal.git
+git clone https://github.com/yourusername/citizen-complaint-portal.git
 
 # Navigate to backend directory
 cd citizen-complaint-portal/backend
@@ -51,6 +51,24 @@ npm install
 # Start development server
 npm start
 ```
+
+## 📦 Project Structure
+```
+citizen-complaint-portal/
+│
+├── backend/
+│   ├── controllers/        # Request handling logic
+│   ├── models/             # MongoDB schemas
+│   ├── routes/             # API endpoint definitions
+│   └── middleware/         # Authentication and validation
+│
+├── frontend/
+│   ├── src/
+│   │   ├── components/     # React UI components
+│   │   ├── pages/          # Individual page components
+│   │   └── services/       # API interaction logic
+│
+└── docs/                   # Project documentation
 ```
 
 ## 🗺️ Google Maps Integration
@@ -91,4 +109,4 @@ Distributed under the MIT License. See `LICENSE` for more information.
 ## 📞 Contact
 Harshal Sakpal - [harshalsakpal21@gmail.com](mailto:harshalsakpal21@gmail.com)
 
-Project Link: [https://github.com/Harrie07/citizen-complaint-portal](https://github.com/Harrie07/citizen-complaint-portal)
+Project Link: [https://github.com/yourusername/citizen-complaint-portal](https://github.com/yourusername/citizen-complaint-portal)
