@@ -29,7 +29,7 @@ function HomePage() {
 
   const navigate = useNavigate();
   const { isLoaded, loadError } = useLoadScript({
-    googleMapsApiKey: "AIzaSyDbpvDa2o3CQrbmoeQlZnipUsOXwu0SfSA"
+    googleMapsApiKey: "your API key"
   });
 
   // Fetch username from localStorage on component mount
